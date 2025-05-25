@@ -1,0 +1,49 @@
+    body {
+      height: 100%;
+      font-weight: bolder;
+    }
+
+    .container {
+      display: flex;
+      height: max-content;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+      padding-top: 12%;
+    }
+
+    .container2 {
+      border: 6px solid black;
+      color: white;
+      width: 400px;
+      height: 472px;
+      padding: 10px; 
+      border-radius: 8px;
+    }
+
+    table {
+      width: 100%;
+      table-layout: fixed;
+    }
+
+    button {
+      width: 100%;
+      height: 70px;
+      font-size: 24px;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+
+    input {
+      width: 98%;
+      height: 80px;
+      margin-bottom: 8px;
+      font-size: 32px;
+      border: 3px solid black;
+    }
+
+    .background-merah { background-color: red; color: white;}
+    .background-biru {background-color: blue; color: white;}
+    .background-oren {background-color: orange;}
+    .background-hitam {background-color: black; color: white;}
+    .background-hijau {background-color: green; color: white;}
