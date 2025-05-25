@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kalkulator Matematika </title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="container2">
+   <table>
+      <tr>
+        <td colspan="4">
+          <input type="text" id="layar" disabled />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><button class="background-merah" onclick="hapusSemua()">AC</button></td>
+        <td><button class="background-biru" onclick="hapusSatu()">C</button></td>
+        <td><button class="background-oren" onclick="tambahInput('*')">*</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="tambahInput('7')">7</button></td>
+        <td><button onclick="tambahInput('8')">8</button></td>
+        <td><button onclick="tambahInput('9')">9</button></td>
+        <td><button class="background-oren" onclick="tambahInput('/')">/</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="tambahInput('4')">4</button></td>
+        <td><button onclick="tambahInput('5')">5</button></td>
+        <td><button onclick="tambahInput('6')">6</button></td>
+        <td><button class="background-oren" onclick="tambahInput('+')">+</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="tambahInput('1')">1</button></td>
+        <td><button onclick="tambahInput('2')">2</button></td>
+        <td><button onclick="tambahInput('3')">3</button></td>
+        <td><button class="background-oren" onclick="tambahInput('-')">-</button></td>
+      </tr>
+      <tr>
+        <td><button class="background-hitam" onclick="ubahTanda()">±</button></td>
+        <td><button onclick="tambahInput('0')">0</button></td>
+        <td><button class="background-hitam" onclick="tambahInput('.')">.</button></td>
+        <td><button class="background-hijau" onclick="hitung()">=</button></td>
+      </tr>
+    </table>
+</div>
+</div>
+
+<script src="js\script.js"> </script>
+</body>
+</html>
